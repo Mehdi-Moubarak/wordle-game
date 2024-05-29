@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { getRandomWord } from '../utils/wordList';
 import GuessRow from '../components/GuessRow';
 import '../styles/GamePage.css';
