@@ -1,0 +1,25 @@
+.letter-box {
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin: 5px;
+    font-size: 24px;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.gray {
+    background-color: gray;
+    color: white;
+}
