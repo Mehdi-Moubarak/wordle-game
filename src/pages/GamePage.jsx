@@ -5,7 +5,7 @@ import '../styles/GamePage.css';
 
 const GamePage = () => {
     const [solution, setSolution] = useState(getRandomWord);
-    const [guesses, setGuesses] = useState(Array(6).fill('')); // Initialize with 6 empty guesses
+    const [guesses, setGuesses] = useState(Array(5).fill('')); // Initialize with 6 empty guesses
     const [currentGuess, setCurrentGuess] = useState('');
     const [currentRow, setCurrentRow] = useState(0);
     const [gameOver, setGameOver] = useState(false);

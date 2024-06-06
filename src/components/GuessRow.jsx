@@ -3,7 +3,7 @@ import LetterBox from './LetterBox';
 import '../styles/GuessRow.css';
 
 const GuessRow = ({ guess, solution }) => {
-    const letters = guess.split('').concat(Array(solution.length - guess.length).fill(''));
+    const letters = guess.split('').concat(Array(5).fill(''));
 
     const getStatus = (letter, index) => {
         if (!letter) return '';
